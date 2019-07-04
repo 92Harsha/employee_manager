@@ -6,7 +6,7 @@ Steps to build
 
 1) Clone.
 2) Configure Database 
-    ## We are using Postgres
+    # Postgres
        a) Start Postgres Service in port 5432
        b) With-in Tomcat config content.xml add 
           <Resource name="jdbc/employee_managerDS" auth="Container" type="javax.sql.DataSource"
